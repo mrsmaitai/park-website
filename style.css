@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: fantasy;
+    color: white;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: url(static/parkwebsitebackground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.color-overlay{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.8;;
+    position: relative;
+}
+
+.banner .navbar{
+    margin-top: 4%;
+}
+
+.banner .navbar-head{
+    color: wheat;
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: 8%;
+
+}
+
+.banner .nav{
+    margin-right: 8%;
+}
+
+.banner .nav li a{
+    color: plum;
+    font-size: 22px;
+
+}
+
+.banner .nav li a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+
+.banner .section{
+    margin-top: 15%;
+    color: wheat;
+    font-weight: bolder;
+}
+
+
+h2{
+    text-align: center;
+    padding: 5px;
+    color: plum;
+}
+
+img{
+    max-width: 100%;
+}
+
+#gallery{
+    padding:30px 0;
+    margin-bottom: -2%;
+}
+
+#gallery img{
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#map{
+    text-align: center;
+}
+
+#map h2{
+    padding: 20px;;
+}
+
+#contact h4{
+    padding-left: 211px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    color: wheat;
+}
+
+
+#contact ul{
+    padding-left: 225px;
+    color: plum
+}
+
+#contact li{
+    margin: 10px;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 3px;
+    background: gray;
+    color: black
+}
